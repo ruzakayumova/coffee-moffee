@@ -19,7 +19,8 @@
 }
 
 body{
-    background-color: #f7d917;
+    /* background-color: #f7d917; */
+    background-color: #fff200;
     font-family: 'MyriadPro-Bold', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
 }
@@ -125,10 +126,10 @@ body{
 .hero-wrapper{
     height: 90%;
     width: 80%;
-    background-image: url(../images/21.png);
     background-size: cover;
     background-position: center 0;
     position: relative;
+    background-image: url(../images/8.png);
     top: 150px;
     right: 300px;
     z-index: 2;
@@ -147,8 +148,8 @@ body{
     width: 500px;
     font-size: 4rem;
     line-height: 7rem;
-    color: #78291c;
     /* font-family: 'Monsterrat', sans-serif; */
+    color: #78291c;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -178,7 +179,10 @@ body{
 
 /* coffee */
 .coffee-section{
-    margin-top: 100px;
+    background-color: #996633;
+    /* background-image: url(../images/bg.jpg); */
+    
+    margin-top: 64px;
 }
 
 .cards{
@@ -186,7 +190,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    perspective: 1000px;
 }
 
 .card-container{
@@ -198,12 +201,11 @@ body{
 }
 
 .card{
-    background-color: #78291c;
-    transform-style: preserve-3d;
+    background-color: #996633;
     min-height: 80vh;
     width: 35rem;
     border-radius: 30px;
-    padding: 0 5rem;
+    padding: 0 3rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2);
 }
 
@@ -215,24 +217,28 @@ body{
 }
 
 .coffee img{
-    width: 20rem;
-    margin: 25px 0 5px 0;
+    width: 25rem;
+    /* margin: 5px 0 5px 0; */
     /* z-index: -2; */
     transition: all 0.75s ease-out;
 }
 
 .info h2{
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     transition: all .75s ease-out;
 }
 
+.info h2::after{
+    background-color: #78291c;
+}
+
 .info h3{
-    font-size:  1.3rem;
-    padding: 2rem 0;
+    font-size:  1rem;
     /* color: #585858; */
     color: #fff;
+    padding: 2.rem 0;
     font-weight: lighter;
     text-align: center;
     transition: all 0.75s ease-out;
@@ -242,7 +248,7 @@ body{
 .about-section{
     height: 55vh;
     color: #fff;
-    background-color: #78291c;
+    /* background-color: #78291c; */
     
 }
 
@@ -256,6 +262,7 @@ body{
 /* contact */
 .contact-section{
     height: 60vh;
+    background-color: #996633;
     color: #78291c;
     padding: 0;
 
@@ -331,7 +338,7 @@ h2:after{
 .btn{
 	width: 100%;
 	padding: .8rem 1rem;
-	background-color: #78291c;
+	background-color: #996633;
 	color: #fff;
 	font-size: 1.1rem;
     text-transform: uppercase;
@@ -359,7 +366,7 @@ h2:after{
     flex-flow: row wrap;
     padding: 50px 0 0 400px;
     color: #fff;
-    background-color: #78291c;
+    background-color: #f7d917;
 }
     
 .footer > * {
@@ -373,7 +380,7 @@ h2:after{
     }
     
 footer h2 {
-    color: #f7d917;
+    color: #78291c;
 }
 
 footer h2::after{
